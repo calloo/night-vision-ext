@@ -115,6 +115,15 @@ Overlay settings. Specifies how this overlay should be rendered.
 
 Flag that shows should the lib render the overlay or not. This includes calculation of a common y-range (max among all overlays on the pane).     
 
+## overlay.settings.customSettingsBtn <img src="/robot.png" class="rh-tag" title="robot" /> <img src="/human.png" class="rh-tag" title="human" />
+
+- **Type:** `boolean`
+- **Default:** `false`
+
+Displays a custom settings button in the overlay's legend. If set to `true`, the button icon will be shown. To make use of this button, 
+you need to listen to the `extern:open-overlay-settings` event, which is triggered whenever the settings icon is clicked. Use this event to implement a 
+custom modal to manage the settings for your overlay.
+
 ## overlay.settings.scale
 
 - **Type:** `string`

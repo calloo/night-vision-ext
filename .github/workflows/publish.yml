@@ -70,6 +70,12 @@ jobs:
       - name: Install dependencies
         run: cd docs && npm ci
 
+      - name: Update package.json with release tag
+        run: |
+          TAG="${{ github.event.release.tag_name }}"
+          echo "Updating package.json version to $TAG"
+          npm version "$TAG" --no-git-tag-version
+
       - name: Build with VitePress
         run: cd docs && npm run docs:build
 
