@@ -1,4 +1,5 @@
 export default {
+    outDir: '../../public',
     lang: 'en-US',
     title: 'NightVision Docs',
     description: 'Timeseries / candlestick charts for PROs. Welcome to nex-gen!',
@@ -8,18 +9,18 @@ export default {
     ],
     themeConfig: {
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/project-nv/night-vision' },
+            { icon: 'github', link: 'https://github.com/project-nv/night-vision-ext' },
             { icon: 'twitter', link: 'https://twitter.com/nvxbased' }
         ],
         logo: '/favicon.png',
         nav: [
-            { text: 'Guide', link: '/guide/intro/night-vision-charts' },
+            { text: 'Guide', link: '/guide/intro/night-vision-ext-charts' },
             { text: 'Examples', link: '/guide/intro/10-basic-examples' },
-            { text: 'Roadmap', link: 'https://github.com/project-nv/night-vision#roadmap' },
+            { text: 'Roadmap', link: 'https://github.com/project-nv/night-vision-ext#roadmap' },
             {
                text: '0.4.0',
                items: [
-                 { text: '0.4.0', link: 'https://www.npmjs.com/package/night-vision' },
+                 { text: '0.4.0', link: 'https://www.npmjs.com/package/night-vision-ext' },
                ]
              }
         ],
@@ -34,7 +35,7 @@ export default {
                 items: [
                   {
                       text: 'Night Vision Charts',
-                      link: '/guide/intro/night-vision-charts'
+                      link: '/guide/intro/night-vision-ext-charts'
                   },
                   {
                       text: 'Getting Started',

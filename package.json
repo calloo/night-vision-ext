@@ -1,9 +1,12 @@
 {
-  "name": "night-vision",
+  "name": "night-vision-ext-ext",
   "version": "0.4.0",
   "description": "Highly customizable charting library, created for professional traders",
-  "homepage": "https://github.com/project-nv/night-vision",
+  "homepage": "https://github.com/project-nv/night-vision-ext",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": [
     "dist"
   ],
@@ -13,12 +16,12 @@
     "build-cdn": "vite build --config vite.cdn.config.js",
     "preview": "vite preview"
   },
-  "main": "./dist/night-vision.js",
-  "module": "./dist/night-vision.js",
+  "main": "./dist/night-vision-ext.js",
+  "module": "./dist/night-vision-ext.js",
   "exports": {
     ".": {
-      "import": "./dist/night-vision.js",
-      "require": "./dist/night-vision.umd.cjs"
+      "import": "./dist/night-vision-ext.js",
+      "require": "./dist/night-vision-ext.umd.cjs"
     }
   },
   "author": "ChartMaster",

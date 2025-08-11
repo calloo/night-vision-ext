@@ -6,7 +6,7 @@
 When you call `new NightVision()`, you create the main component written in Svelte and get its pure-js wrapper:
 
 ```js
-import NightVision from 'night-vision'
+import NightVision from 'night-vision-ext'
 
 let chart = new NightVision('<root-element-id>', {
     /* Main component props */

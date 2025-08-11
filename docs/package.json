@@ -1,5 +1,5 @@
 {
-  "name": "night-vision-docs",
+  "name": "night-vision-ext-docs",
   "version": "0.1.0",
   "description": "Docs for NightVision charts",
   "main": "index.js",

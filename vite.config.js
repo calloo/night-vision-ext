@@ -32,7 +32,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/index.js"),
       name: "NightVision",
-      fileName: "night-vision",
+      fileName: "night-vision-ext",
     },
     rollupOptions: {
       output: {

@@ -1,32 +1,34 @@
+## Disclaimer
 
+I have created my own fork of night-vision-ext repo, as it seems the author is no longer active, and no recent contributions from others have been accepted, still all pending.
 
-![PepeNV](https://github.com/project-nv/night-vision/blob/main/docs/docs/public/nv-banner.jpeg?raw=true)
+![PepeNV](https://github.com/project-nv/night-vision-ext/blob/main/docs/docs/public/nv-banner.jpeg?raw=true)
 
 <div align="center">
 
-![npm](https://img.shields.io/npm/v/night-vision.svg?color=brightgreen&label=version) ![license](https://img.shields.io/badge/license-MIT-blue.svg) ![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![npm](https://img.shields.io/npm/v/night-vision-ext.svg?color=brightgreen&label=version) ![license](https://img.shields.io/badge/license-MIT-blue.svg) ![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 </div>
 
-# <center> Night Vision Charts™ </center>
+# <center> Night Vision EXT Charts™ </center>
 
-**NightVision** is a highly customizable charting library, created for professional traders. It is a continuation of [TradingVueJS](https://github.com/tvjsx/trading-vue-js) project, borrowing its core ideas, but applying better design decisions and improving performance. Built with Svelte.   
+**NightVision-EXT** is a highly customizable charting library, created for professional traders. It is a continuation of [TradingVueJS](https://github.com/tvjsx/trading-vue-js) project, borrowing its core ideas, but applying better design decisions and improving performance. Built with Svelte.   
 
-Start your charting journey with our interactive [**[DOCS]**](https://nightvision.dev/guide/intro/night-vision-charts.html).
+Start your charting journey with our interactive [**[DOCS]**](https://calloo.github.io/night-vision-ext/guide/intro/night-vision-ext-charts.html).
 
-![Screen](https://raw.githubusercontent.com/project-nv/night-vision/main/docs/docs/public/screen.png)
+![Screen](https://raw.githubusercontent.com/project-nv/night-vision-ext/main/docs/docs/public/screen.png)
 
 ## Installation
 
 ```sh
-npm i night-vision
+npm i night-vision-ext
 ```
 
 ## Usage
 
 ```js
 
-import { NightVision } from 'night-vision'
+import { NightVision } from 'night-vision-ext'
 
 let chart = new NightVision('<root-element-id>')
 
@@ -54,24 +56,8 @@ chart.data = {
 ```
 
 ## Roadmap
-
-- ~~Add stocks support (Index-Based mode)~~
-- ~~Improve the layout: x/y axis calculation~~
-- ~~Expand the built-in overlay collection~~
-- ~~Add keyboard & mouse events~~
-- ~~Port the script system from TVJS~~
-- ~~Create a built-in indicator collection~~
 - NavyJS tutorial
 - Data API (the high-level API)
 - *Add tool overlays* ???
 - *Toolbar* ??? 
 - Mobile support
-
-
-<div align="center">
-
-Happy charting!
-
-<img src="https://raw.githubusercontent.com/project-nv/night-vision/main/docs/docs/public/wink.gif" alt="wink" width="64"/>
-
-</div>

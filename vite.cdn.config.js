@@ -31,11 +31,11 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/index.js"),
       name: "NightVision",
-      fileName: (format) => `night-vision.${format}.js`
+      fileName: (format) => `night-vision-ext.${format}.js`
     },
     rollupOptions: {
       output: {
-        entryFileNames: "night-vision.min.js",
+        entryFileNames: "night-vision-ext.min.js",
         format: 'umd'
       },
       plugins: [

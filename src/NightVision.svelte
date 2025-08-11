@@ -82,18 +82,18 @@ $:style = `
 </script>
 <style>
 /* Anit-boostrap tactix */
-.night-vision *, ::after, ::before {
+.night-vision-ext *, ::after, ::before {
     box-sizing: content-box;
 }
-.night-vision img {
+.night-vision-ext img {
     vertical-align: initial;
 }
-.night-vision {
+.night-vision-ext {
     position: relative;
     direction: ltr; /* TODO: Explore */
 }
 </style>
 <!-- Main component  -->
-<div class="night-vision" id={id} {style}>
+<div class="night-vision-ext" id={id} {style}>
     <Chart props={props} bind:this={chart}/>
 </div>

@@ -5,7 +5,7 @@ import path from 'path';
 const currentDir = new URL('.', import.meta.url).pathname;
 
 const dirPath = path.resolve(currentDir, '../dist/cdn');
-const fileToKeep = 'night-vision.min.js';
+const fileToKeep = 'night-vision-ext.min.js';
 
 export default function cleanDist() {
   fs.readdirSync(dirPath).forEach(file => {

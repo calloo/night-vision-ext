@@ -134,7 +134,7 @@ If a property defined in the `props` field, it will be used by the script (inste
 [Events](/guide/main-comp/events.html) component. Nothing less, nothing more.
 
 :::tip
-Hi there! Are you tired of debugging overlays with CodeSadBugs??? Or your own buggy DIY npm apps? Then try our powerful **[Overlay Studio](https://github.com/project-nv/night-vision-os)**! Click this link **[RIGHT NOW](https://github.com/project-nv/night-vision-os)** and get -100% discount! What are you waiting for? Click the *** **** link! 🔥🔥🔥   
+Hi there! Are you tired of debugging overlays with CodeSadBugs??? Or your own buggy DIY npm apps? Then try our powerful **[Overlay Studio](https://github.com/project-nv/night-vision-ext-os)**! Click this link **[RIGHT NOW](https://github.com/project-nv/night-vision-ext-os)** and get -100% discount! What are you waiting for? Click the *** **** link! 🔥🔥🔥   
 :::
 
 ### $lib
@@ -220,7 +220,7 @@ legendHtml(x, prec, f) => `
 `
 ```
 
-A good & complex example of `legendHtml` is [Candles](https://github.com/project-nv/night-vision/blob/main/src/scripts/candles.navy) overlay.
+A good & complex example of `legendHtml` is [Candles](https://github.com/project-nv/night-vision-ext/blob/main/src/scripts/candles.navy) overlay.
 
 ## Precision Samplers
 
@@ -280,7 +280,7 @@ The `static` keyword also applies to `preSampler`. You can define your custom st
 
 ## More Info?
 
-Currenlty, it's recommended to eyeball all the built-in sources: https://github.com/project-nv/night-vision/tree/main/src/scripts
+Currenlty, it's recommended to eyeball all the built-in sources: https://github.com/project-nv/night-vision-ext/tree/main/src/scripts
 
 Also, as you probably already know, good stuff is here: [NavyJS API](/guide/api/navy-api.html)
 
