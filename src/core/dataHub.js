@@ -274,7 +274,6 @@ class DataHub {
       this.data.panes.splice(event.paneId, 1)
     }
 
-    this.events.emitSpec('chart', 'overlay-removed', { id: event.ovId, pane: event.paneId })
     this.events.emitSpec('chart', 'update-layout')
   }
 }
