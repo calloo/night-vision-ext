@@ -22,7 +22,7 @@ console.log(chart.meta)
 - `legend()` - returns an array of `[value, color]` pairs
 - `legendHtml()` - returns your own HTML markup
 
-As we saw in the [Custom Overlays](/night-vision-ext/guide/intro/10-basic-examples.html#_7-custom-overlays) example, the legend functions are defined inside  `.navy` scripts. Here is another example, this time with `legendHtml()`:
+As we saw in the [Custom Overlays](/guide/intro/10-basic-examples.html#_7-custom-overlays) example, the legend functions are defined inside  `.navy` scripts. Here is another example, this time with `legendHtml()`:
 
 <iframe src="https://codesandbox.io/embed/metahub-html-legend-c45ows?fontsize=14&hidenavigation=1&module=%2Fmain.js&theme=dark"
      style="width:100%; height:490px; border:0; border-radius: 8px; overflow:hidden;"

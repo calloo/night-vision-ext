@@ -35,11 +35,11 @@ console.log(chart.layout)
 }
 ```
 
-A full description can be found in the [Layout API](/night-vision-ext/guide/api/layout-api.html).
+A full description can be found in the [Layout API](/guide/api/layout-api.html).
 
 ## Scale
 
-Is a descriptor of the y-axis scale. You can switch between the scales and choose how they are displayed (left/right, combined on one side) using a special scale-template. Read how to work with scales [here](/night-vision-ext/guide/data-struct/pane-object.html#pane-settings-scaletemplate).
+Is a descriptor of the y-axis scale. You can switch between the scales and choose how they are displayed (left/right, combined on one side) using a special scale-template. Read how to work with scales [here](/guide/data-struct/pane-object.html#pane-settings-scaletemplate).
 
 ```js
 // Scale object example

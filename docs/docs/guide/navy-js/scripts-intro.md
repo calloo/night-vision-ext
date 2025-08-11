@@ -42,7 +42,7 @@ Spline(sma(close, 20), { color: '#999' })
 
 ## How Scripts Work
 
-To create a script you need to add a new [Script Object](/night-vision-ext/guide/data-struct/script-object.html) to `scripts` array of the pane:
+To create a script you need to add a new [Script Object](/guide/data-struct/script-object.html) to `scripts` array of the pane:
 
 ```js
 // Pane object (BEFORE execution)

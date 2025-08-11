@@ -65,7 +65,7 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Read the [docs](https://calloo.github.io/night-vision-ext/guide/intro/getting-started.html).
+        - label: Read the [docs](https://calloo.github.io/guide/intro/getting-started.html).
           required: true
         - label: Check that there isn't [already an issue](https://github.com/calloo/night-vision-ext/issues) that reports the same bug to avoid creating a duplicate.
           required: true

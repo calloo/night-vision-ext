@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /night-vision-ext/guide/intro/getting-started
+      link: /guide/intro/getting-started
     - theme: alt
       text: View on GitHub
       link: https://github.com/calloo/night-vision-ext

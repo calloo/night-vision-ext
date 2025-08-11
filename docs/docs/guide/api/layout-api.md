@@ -89,7 +89,7 @@ Height of the grid, px
 
 - **Type:** `undefined`
 
-Grid settings, see [pane.settings](/night-vision-ext/guide/data-struct/pane-object.html#pane-settings)
+Grid settings, see [pane.settings](/guide/data-struct/pane-object.html#pane-settings)
 
 ## layout.grid.main
 

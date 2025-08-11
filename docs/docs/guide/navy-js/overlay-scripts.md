@@ -3,7 +3,7 @@
 
 **Overlay scripts** define how your data will look on the chart.
 
-As was described in the [Scripts](/night-vision-ext/guide/main-comp/scripts.html) chapter, each `.navy` file contains a javascript code (almost), separated by section tags.   
+As was described in the [Scripts](/guide/main-comp/scripts.html) chapter, each `.navy` file contains a javascript code (almost), separated by section tags.   
 
 ## Basic structure
 
@@ -89,7 +89,7 @@ keydown() // Called on 'keydown' event
 keypress() // Called on 'keypress' event
 ```
 
-All the definitions described in [NavyJS API](/night-vision-ext/guide/api/navy-api.html).
+All the definitions described in [NavyJS API](/guide/api/navy-api.html).
 
 ## Environment
 
@@ -97,7 +97,7 @@ All the definitions described in [NavyJS API](/night-vision-ext/guide/api/navy-a
 
 ### $core
 
-Collection of all core elements and other variables, such as `data`, `range` and `view`. You can find all the definitions in [NavyJS API](/night-vision-ext/guide/api/navy-api.html) as well. The most common use case of `$core` is the main drawing loop:
+Collection of all core elements and other variables, such as `data`, `range` and `view`. You can find all the definitions in [NavyJS API](/guide/api/navy-api.html) as well. The most common use case of `$core` is the main drawing loop:
 
 ```js
 // A fragment of code from Spline.navy:
@@ -120,7 +120,7 @@ draw() {
 
 ### $props
 
-Overlay props (`props` field of [OverlayObject](/night-vision-ext/guide/data-struct/overlay-object.html)). Props defined with `prop()` function can be immediately accessed through `$props` variable:
+Overlay props (`props` field of [OverlayObject](/guide/data-struct/overlay-object.html)). Props defined with `prop()` function can be immediately accessed through `$props` variable:
 
 ```js
 prop('color', { type: 'color', def: '#2d7b2f33' })
@@ -131,7 +131,7 @@ If a property defined in the `props` field, it will be used by the script (inste
 
 ### $events
 
-[Events](/night-vision-ext/guide/main-comp/events.html) component. Nothing less, nothing more.
+[Events](/guide/main-comp/events.html) component. Nothing less, nothing more.
 
 :::tip
 Hi there! Are you tired of debugging overlays with CodeSadBugs??? Or your own buggy DIY npm apps? Then try our powerful **[Overlay Studio](https://github.com/calloo/night-vision-ext-os)**! Click this link **[RIGHT NOW](https://github.com/calloo/night-vision-ext-os)** and get -100% discount! What are you waiting for? Click the *** **** link! 🔥🔥🔥   
@@ -224,7 +224,7 @@ A good & complex example of `legendHtml` is [Candles](https://github.com/calloo/
 
 ## Precision Samplers
 
-We already covered the usage of this function [here](/night-vision-ext/guide/main-comp/meta-hub.html#precision-samplers). Again, `Candles` overlay is a nice example of the case when you need to exclude some values from sampling:
+We already covered the usage of this function [here](/guide/main-comp/meta-hub.html#precision-samplers). Again, `Candles` overlay is a nice example of the case when you need to exclude some values from sampling:
 
 ```js
 // Code from Candles.navy
@@ -282,7 +282,7 @@ The `static` keyword also applies to `preSampler`. You can define your custom st
 
 Currenlty, it's recommended to eyeball all the built-in sources: https://github.com/calloo/night-vision-ext/tree/main/src/scripts
 
-Also, as you probably already know, good stuff is here: [NavyJS API](/night-vision-ext/guide/api/navy-api.html)
+Also, as you probably already know, good stuff is here: [NavyJS API](/guide/api/navy-api.html)
 
 
 

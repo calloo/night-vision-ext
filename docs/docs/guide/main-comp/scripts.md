@@ -59,7 +59,7 @@ Each script can contain unlimited amount of these. A block is defined as a code 
 
 ## Syntax Sugar
 
-You may have noticed that the script in the [10 Basic Examples](/night-vision-ext/guide/intro/10-basic-examples.html#_7-custom-overlays) has weird function declarations:
+You may have noticed that the script in the [10 Basic Examples](/guide/intro/10-basic-examples.html#_7-custom-overlays) has weird function declarations:
 
 ```js
 // Like this one:

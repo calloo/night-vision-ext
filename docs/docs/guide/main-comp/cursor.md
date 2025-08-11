@@ -40,7 +40,7 @@ chart2.events.on("app:$cursor-update", (range) => {
 });
 ```
 
-See [Basic Example #8](/night-vision-ext/guide/intro/10-basic-examples.html#_8-multiple-chart-instances) for the full implementation.
+See [Basic Example #8](/guide/intro/10-basic-examples.html#_8-multiple-chart-instances) for the full implementation.
 
 The following are useful methods of the cursor.
 

@@ -14,7 +14,7 @@ I have created my own fork of night-vision-ext repo, as it seems the author is n
 
 **NightVision-EXT** is a highly customizable charting library, created for professional traders. It is a continuation of [TradingVueJS](https://github.com/tvjsx/trading-vue-js) project, borrowing its core ideas, but applying better design decisions and improving performance. Built with Svelte.   
 
-Start your charting journey with our interactive [**[DOCS]**](https://calloo.github.io/night-vision-ext/guide/intro/night-vision-ext-charts.html).
+Start your charting journey with our interactive [**[DOCS]**](https://calloo.github.io/guide/intro/night-vision-ext-charts.html).
 
 ![Screen](https://raw.githubusercontent.com/calloo/night-vision-ext/main/docs/docs/public/screen.png)
 

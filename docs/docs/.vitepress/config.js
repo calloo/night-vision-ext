@@ -1,5 +1,6 @@
 export default {
     outDir: '../../public',
+    base: '/night-vision-ext/',
     lang: 'en-US',
     title: 'NightVision Docs',
     description: 'Timeseries / candlestick charts for PROs. Welcome to nex-gen!',
@@ -14,8 +15,8 @@ export default {
         ],
         logo: '/favicon.png',
         nav: [
-            { text: 'Guide', link: '/night-vision-ext/guide/intro/night-vision-ext-charts' },
-            { text: 'Examples', link: '/night-vision-ext/guide/intro/10-basic-examples' },
+            { text: 'Guide', link: '/guide/intro/night-vision-ext-charts' },
+            { text: 'Examples', link: '/guide/intro/10-basic-examples' },
             { text: 'Roadmap', link: 'https://github.com/calloo/night-vision-ext#roadmap' },
             {
                text: '0.4.0',
@@ -35,19 +36,19 @@ export default {
                 items: [
                   {
                       text: 'Night Vision Charts',
-                      link: '/night-vision-ext/guide/intro/night-vision-ext-charts'
+                      link: '/guide/intro/night-vision-ext-charts'
                   },
                   {
                       text: 'Getting Started',
-                      link: '/night-vision-ext/guide/intro/getting-started'
+                      link: '/guide/intro/getting-started'
                   },
                   {
                       text: 'Basic Configuration',
-                      link: '/night-vision-ext/guide/intro/basic-configuration'
+                      link: '/guide/intro/basic-configuration'
                   },
                   {
                       text: '10 Basic Examples',
-                      link: '/night-vision-ext/guide/intro/10-basic-examples'
+                      link: '/guide/intro/10-basic-examples'
                   }
                 ]
             },
@@ -56,35 +57,35 @@ export default {
                 items: [
                   {
                       text: 'Core Elements',
-                      link: '/night-vision-ext/guide/main-comp/core-elements'
+                      link: '/guide/main-comp/core-elements'
                   },
                   {
                       text: 'Layout',
-                      link: '/night-vision-ext/guide/main-comp/layout'
+                      link: '/guide/main-comp/layout'
                   },
                   {
                       text: 'DataHub',
-                      link: '/night-vision-ext/guide/main-comp/data-hub'
+                      link: '/guide/main-comp/data-hub'
                   },
                   {
                       text: 'MetaHub',
-                      link: '/night-vision-ext/guide/main-comp/meta-hub'
+                      link: '/guide/main-comp/meta-hub'
                   },
                   {
                       text: 'DataScan',
-                      link: '/night-vision-ext/guide/main-comp/data-scan'
+                      link: '/guide/main-comp/data-scan'
                   },
                   {
                       text: 'Cursor',
-                      link: '/night-vision-ext/guide/main-comp/cursor'
+                      link: '/guide/main-comp/cursor'
                   },
                   {
                       text: 'Events',
-                      link: '/night-vision-ext/guide/main-comp/events'
+                      link: '/guide/main-comp/events'
                   },
                   {
                       text: 'Scripts',
-                      link: '/night-vision-ext/guide/main-comp/scripts'
+                      link: '/guide/main-comp/scripts'
                   }
                 ]
             },
@@ -93,11 +94,11 @@ export default {
                 items: [
                     {
                         text: 'The Top Level',
-                        link: '/night-vision-ext/guide/data-struct/the-top-level'
+                        link: '/guide/data-struct/the-top-level'
                     },
                     {
                         text: 'Pane Object',
-                        link: '/night-vision-ext/guide/data-struct/pane-object'
+                        link: '/guide/data-struct/pane-object'
                     },
                     {
                         text: 'Overlay Object',
