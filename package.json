@@ -11,10 +11,12 @@
     "dist"
   ],
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "vite build && node ./types/build-script.cjs",
     "build-cdn": "vite build --config vite.cdn.config.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.svelte --fix",
+    "format": "prettier --write 'src/**/*.{js,svelte}'"
   },
   "main": "./dist/night-vision-ext.js",
   "module": "./dist/night-vision-ext.js",
@@ -36,7 +38,14 @@
     "svelte": "^4.2.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.33.0",
     "@sveltejs/vite-plugin-svelte": "^2.4.5",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-svelte": "^3.11.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-svelte": "^3.4.0",
     "vite": "^4.5.0",
     "vite-plugin-banner": "^0.7.1",
     "ws": "^8.14.2"
