@@ -1,4 +1,3 @@
-
 // Library exports
 
 import { NightVision } from './interface.js'
@@ -11,8 +10,4 @@ import Const from './stuff/constants.js'
 import Utils from './stuff/utils.js'
 import Parser from './core/navy/parser.js'
 
-export {
-    NightVision, DataHub, MetaHub,
-    DataScan, Scripts, Events,
-    Const, Utils, Parser
-}
+export { NightVision, DataHub, MetaHub, DataScan, Scripts, Events, Const, Utils, Parser }

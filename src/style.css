@@ -6,3 +6,8 @@ body {
     padding: 0;
     overflow: hidden;
 }
+
+html,body, .app {
+    height: 100vh;
+    width: 100vw;
+}

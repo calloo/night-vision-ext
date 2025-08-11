@@ -23,6 +23,12 @@ $:eyeStyle = `
     /* FIX 'overflow: hidden' changes baseline */
     margin-bottom: -2px;
 `
+
+$:closeStyle = `
+    margin-top: ${(height - 20) * 0.5 - 3}px;
+    margin-bottom: -2px;
+`
+
 export function update() {
     display = ov.settings.display !== false
 }
@@ -33,6 +39,13 @@ function onDisplayClick() {
         ovId: ov.id,
         flag: ov.settings.display === undefined ?
             false : ! ov.settings.display
+    })
+}
+
+function onRemoveClick() {
+    events.emitSpec('hub', 'remove-overlay', {
+        paneId: gridId,
+        ovId: ov.id
     })
 }
 
@@ -48,9 +61,34 @@ function onDisplayClick() {
 .nvjs-eye:hover {
     filter: brightness(1.25);
 }
+.nvjs-close {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 0;
+    margin-left: 7px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #6a6a71;
+}
+.nvjs-close:hover {
+    filter: brightness(1.25);
+}
 </style>
+{#if !ov.main}
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<div class="nvjs-close" style={closeStyle}
+    on:click|stopPropagation={onRemoveClick}>
+    ×
+</div>
+{/if}
+
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div class="nvjs-eye" style={eyeStyle}
-    on:click|stopPropagation={onDisplayClick}>
+     on:click|stopPropagation={onDisplayClick}>
 </div>
