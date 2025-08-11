@@ -8,7 +8,7 @@ NightVision is currently in an active development state, the API is not finalize
 :::
 
 ::: info 
-To use `.navy` files in your projects, you need to add [vite-raw-plugin.js](https://github.com/project-nv/night-vision-ext/blob/a089ce451f5226b0c5e1c39435cc50ff9c5d3842/vite/vite-raw-plugin.js#L1) to import scripts as text. If you don't use Vite, replace it with something similar.  
+To use `.navy` files in your projects, you need to add [vite-raw-plugin.js](https://github.com/calloo/night-vision-ext/blob/a089ce451f5226b0c5e1c39435cc50ff9c5d3842/vite/vite-raw-plugin.js#L1) to import scripts as text. If you don't use Vite, replace it with something similar.  
 :::
 
 If you want to stand out from the crowd of other chart technicians (aka adepts of TA), this section is definitely for you. With **navy** scripts you can implement almost any charting idea.
@@ -42,7 +42,7 @@ Spline(sma(close, 20), { color: '#999' })
 
 ## How Scripts Work
 
-To create a script you need to add a new [Script Object](/guide/data-struct/script-object.html) to `scripts` array of the pane:
+To create a script you need to add a new [Script Object](/night-vision-ext/guide/data-struct/script-object.html) to `scripts` array of the pane:
 
 ```js
 // Pane object (BEFORE execution)

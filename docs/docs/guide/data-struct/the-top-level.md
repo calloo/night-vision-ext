@@ -1,7 +1,7 @@
 
 # Data Structure (The Top Level)
 
-As you already know, the top level of the dataset structure looks like this (if not, what are you even doing here? Start with [10 Basic Examples](/guide/intro/10-basic-examples.html):
+As you already know, the top level of the dataset structure looks like this (if not, what are you even doing here? Start with [10 Basic Examples](/night-vision-ext/guide/intro/10-basic-examples.html):
 
 ```js
 {
@@ -24,11 +24,11 @@ As you already know, the top level of the dataset structure looks like this (if 
     ]
 }
 ```
-In this chapter you'll find definitions of the dataset parts. ([Pane](/guide/data-struct/pane-object.html) object, [Overlay](/guide/data-struct/pane-object.html) object and their settings).
+In this chapter you'll find definitions of the dataset parts. ([Pane](/night-vision-ext/guide/data-struct/pane-object.html) object, [Overlay](/night-vision-ext/guide/data-struct/pane-object.html) object and their settings).
 
 The dataset can be called a **central source of the truth** in the library. Both user and the library itself can change it. When the library is expected to change a value of a certain property, you will see a robot tag: <img src="/robot.png" style="display: inline-block; width: 25px; margin: -10px 0 -7px 0;" />. If a property can be manipulated by human, you guessed it right: <img src="/human.png" style="display: inline-block; width: 25px; margin: -10px 0 -7px 0;" />
 
-Following the notion of the [Low-Level API](/guide/intro/10-basic-examples.html#_4-chart-updates-low-level-api), to change the chart state you need to:
+Following the notion of the [Low-Level API](/night-vision-ext/guide/intro/10-basic-examples.html#_4-chart-updates-low-level-api), to change the chart state you need to:
 1. Change the dataset
 2. Call the corresponding update or several updates
 
@@ -41,11 +41,11 @@ The dataset is made **unreactive** on purpose. Modern frameworks like Vue, try t
 - **Type:** `Array`
 - **Default** `[]`
 
-List of [Pane](/guide/data-struct/pane-object.html) objects.
+List of [Pane](/night-vision-ext/guide/data-struct/pane-object.html) objects.
 
 ## data.indexBased <img src="/human.png" class="rh-tag" title="human" />
 
 - **Type:** `boolean`
 - **Default** `false`
 
-Sets the index-based mode. Read more [here](/guide/main-comp/layout.html#the-problem).
+Sets the index-based mode. Read more [here](/night-vision-ext/guide/main-comp/layout.html#the-problem).

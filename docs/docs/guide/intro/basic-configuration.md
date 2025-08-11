@@ -45,4 +45,4 @@ chart.update() // Update the changes
 
 ## Full chart API
 
-You can find the full list of chart props and methods in [Chart API](/guide/api/chart-api)
+You can find the full list of chart props and methods in [Chart API](/night-vision-ext/guide/api/chart-api)

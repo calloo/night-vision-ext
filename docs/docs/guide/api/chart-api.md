@@ -25,7 +25,7 @@ let chart = new NightVision('<root-element-id>', {
 - **Type:** `string`
 - **Default:** `nvjs`
 
-**Main chart id**. Used as a prefix to all html-indices of the internal elements. If you are creating multiple instances, each of them should get a unique id. See [Multi-chart Example](/guide/intro/10-basic-examples.html#_8-multiple-chart-instances).   
+**Main chart id**. Used as a prefix to all html-indices of the internal elements. If you are creating multiple instances, each of them should get a unique id. See [Multi-chart Example](/night-vision-ext/guide/intro/10-basic-examples.html#_8-multiple-chart-instances).   
 
 ## chart.width
 
@@ -53,7 +53,7 @@ Sets the auto-resize mode. This means, the library will track a size of the root
 - **Type:** `Object`
 - **Default:** `{}`
 
-Allows you to overwrite the [default colors](/guide/api/default-colors). For example: `colors: { back: 'gray' }` will change the background color.     
+Allows you to overwrite the [default colors](/night-vision-ext/guide/api/default-colors). For example: `colors: { back: 'gray' }` will change the background color.     
 
 ## chart.showLogo
 
@@ -67,21 +67,21 @@ Show `NV` logo or not
 - **Type:** `Array` Array of strings
 - **Default:** `[]`
 
-User's collection of [NavyJS scripts](/guide/main-comp/scripts.html).   
+User's collection of [NavyJS scripts](/night-vision-ext/guide/main-comp/scripts.html).   
 
 ## chart.data
 
 - **Type:** `Object`
 - **Default:** `{}`
 
-**Main dataset**. Should follow a [specific structure](/guide/data-struct/the-top-level.html)
+**Main dataset**. Should follow a [specific structure](/night-vision-ext/guide/data-struct/the-top-level.html)
 
 ## chart.config
 
 - **Type:** `Object`
 - **Default:** `{}`
 
-Allows you to overwrite the [chart config](/guide/api/chart-config). For example: `config: { MAX_ZOOM: 10000 }` will increase a maximum amount of candles the library can display.     
+Allows you to overwrite the [chart config](/night-vision-ext/guide/api/chart-config). For example: `config: { MAX_ZOOM: 10000 }` will increase a maximum amount of candles the library can display.     
 
 ## chart.timezone
 
@@ -102,7 +102,7 @@ console.log(chart.layout)
 
 - **Type:** `DataHub`
 
-A reference to the [DataHub](/guide/main-comp/data-hub.html) instance of this chart. Alternatively, can be accessed through the singleton class:
+A reference to the [DataHub](/night-vision-ext/guide/main-comp/data-hub.html) instance of this chart. Alternatively, can be accessed through the singleton class:
 
  ```js
  import { DataHub } from 'night-vision-ext'
@@ -114,25 +114,25 @@ A reference to the [DataHub](/guide/main-comp/data-hub.html) instance of this ch
 
 - **Type:** `MetaHub`
 
-A reference to the [MetaHub](/guide/main-comp/meta-hub.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
+A reference to the [MetaHub](/night-vision-ext/guide/main-comp/meta-hub.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
 
 ## chart.scan
 
 - **Type:** `DataScan`
 
-A reference to the [DataScan](/guide/main-comp/data-scan.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
+A reference to the [DataScan](/night-vision-ext/guide/main-comp/data-scan.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
 
 ## chart.events
 
 - **Type:** `Events`
 
-A reference to the [Events](/guide/main-comp/events.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
+A reference to the [Events](/night-vision-ext/guide/main-comp/events.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
 
 ## chart.scriptHub
 
 - **Type:** `Scripts`
 
-A reference to the [Scripts](/guide/main-comp/scripts.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
+A reference to the [Scripts](/night-vision-ext/guide/main-comp/scripts.html) instance of this chart. Alternatively, can be accessed through the singleton class (see [chart.hub](#chart-hub))
 
 ## chart.root
 
@@ -150,7 +150,7 @@ Main [Svelte](https://svelte.dev/) component
 
 - **Type**: `Layout`
 
-The [Layout](/guide/main-comp/layout.html) object of the chart. See [Layout API](/guide/api/layout-api.html) for the full description.    
+The [Layout](/night-vision-ext/guide/main-comp/layout.html) object of the chart. See [Layout API](/night-vision-ext/guide/api/layout-api.html) for the full description.    
 
 ## chart.range
 

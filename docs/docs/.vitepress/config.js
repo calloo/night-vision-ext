@@ -9,14 +9,14 @@ export default {
     ],
     themeConfig: {
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/project-nv/night-vision-ext' },
+            { icon: 'github', link: 'https://github.com/calloo/night-vision-ext' },
             { icon: 'twitter', link: 'https://twitter.com/nvxbased' }
         ],
         logo: '/favicon.png',
         nav: [
-            { text: 'Guide', link: '/guide/intro/night-vision-ext-charts' },
-            { text: 'Examples', link: '/guide/intro/10-basic-examples' },
-            { text: 'Roadmap', link: 'https://github.com/project-nv/night-vision-ext#roadmap' },
+            { text: 'Guide', link: '/night-vision-ext/guide/intro/night-vision-ext-charts' },
+            { text: 'Examples', link: '/night-vision-ext/guide/intro/10-basic-examples' },
+            { text: 'Roadmap', link: 'https://github.com/calloo/night-vision-ext#roadmap' },
             {
                text: '0.4.0',
                items: [
@@ -35,19 +35,19 @@ export default {
                 items: [
                   {
                       text: 'Night Vision Charts',
-                      link: '/guide/intro/night-vision-ext-charts'
+                      link: '/night-vision-ext/guide/intro/night-vision-ext-charts'
                   },
                   {
                       text: 'Getting Started',
-                      link: '/guide/intro/getting-started'
+                      link: '/night-vision-ext/guide/intro/getting-started'
                   },
                   {
                       text: 'Basic Configuration',
-                      link: '/guide/intro/basic-configuration'
+                      link: '/night-vision-ext/guide/intro/basic-configuration'
                   },
                   {
                       text: '10 Basic Examples',
-                      link: '/guide/intro/10-basic-examples'
+                      link: '/night-vision-ext/guide/intro/10-basic-examples'
                   }
                 ]
             },
@@ -56,35 +56,35 @@ export default {
                 items: [
                   {
                       text: 'Core Elements',
-                      link: '/guide/main-comp/core-elements'
+                      link: '/night-vision-ext/guide/main-comp/core-elements'
                   },
                   {
                       text: 'Layout',
-                      link: '/guide/main-comp/layout'
+                      link: '/night-vision-ext/guide/main-comp/layout'
                   },
                   {
                       text: 'DataHub',
-                      link: '/guide/main-comp/data-hub'
+                      link: '/night-vision-ext/guide/main-comp/data-hub'
                   },
                   {
                       text: 'MetaHub',
-                      link: '/guide/main-comp/meta-hub'
+                      link: '/night-vision-ext/guide/main-comp/meta-hub'
                   },
                   {
                       text: 'DataScan',
-                      link: '/guide/main-comp/data-scan'
+                      link: '/night-vision-ext/guide/main-comp/data-scan'
                   },
                   {
                       text: 'Cursor',
-                      link: '/guide/main-comp/cursor'
+                      link: '/night-vision-ext/guide/main-comp/cursor'
                   },
                   {
                       text: 'Events',
-                      link: '/guide/main-comp/events'
+                      link: '/night-vision-ext/guide/main-comp/events'
                   },
                   {
                       text: 'Scripts',
-                      link: '/guide/main-comp/scripts'
+                      link: '/night-vision-ext/guide/main-comp/scripts'
                   }
                 ]
             },
@@ -93,11 +93,11 @@ export default {
                 items: [
                     {
                         text: 'The Top Level',
-                        link: '/guide/data-struct/the-top-level'
+                        link: '/night-vision-ext/guide/data-struct/the-top-level'
                     },
                     {
                         text: 'Pane Object',
-                        link: '/guide/data-struct/pane-object'
+                        link: '/night-vision-ext/guide/data-struct/pane-object'
                     },
                     {
                         text: 'Overlay Object',

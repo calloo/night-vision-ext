@@ -6,7 +6,7 @@ This part of the documentation is likely to be rewritten. The API is not finaliz
 :::
 
 ::: info 
-To use `.navy` files in your projects, you need to add [vite-raw-plugin.js](https://github.com/project-nv/night-vision-ext/blob/a089ce451f5226b0c5e1c39435cc50ff9c5d3842/vite/vite-raw-plugin.js#L1) to import scripts as text. If you don't use Vite, replace it with something similar.  
+To use `.navy` files in your projects, you need to add [vite-raw-plugin.js](https://github.com/calloo/night-vision-ext/blob/a089ce451f5226b0c5e1c39435cc50ff9c5d3842/vite/vite-raw-plugin.js#L1) to import scripts as text. If you don't use Vite, replace it with something similar.  
 :::
 
 **Scripts** component is an essential part of the library that make this project unique. They allow to fully reprogram the looks and functionality of the chart.
@@ -59,7 +59,7 @@ Each script can contain unlimited amount of these. A block is defined as a code 
 
 ## Syntax Sugar
 
-You may have noticed that the script in the [10 Basic Examples](/guide/intro/10-basic-examples.html#_7-custom-overlays) has weird function declarations:
+You may have noticed that the script in the [10 Basic Examples](/night-vision-ext/guide/intro/10-basic-examples.html#_7-custom-overlays) has weird function declarations:
 
 ```js
 // Like this one:

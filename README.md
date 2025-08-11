@@ -2,7 +2,7 @@
 
 I have created my own fork of night-vision-ext repo, as it seems the author is no longer active, and no recent contributions from others have been accepted, still all pending.
 
-![PepeNV](https://github.com/project-nv/night-vision-ext/blob/main/docs/docs/public/nv-banner.jpeg?raw=true)
+![PepeNV](https://github.com/calloo/night-vision-ext/blob/main/docs/docs/public/nv-banner.jpeg?raw=true)
 
 <div align="center">
 
@@ -16,7 +16,7 @@ I have created my own fork of night-vision-ext repo, as it seems the author is n
 
 Start your charting journey with our interactive [**[DOCS]**](https://calloo.github.io/night-vision-ext/guide/intro/night-vision-ext-charts.html).
 
-![Screen](https://raw.githubusercontent.com/project-nv/night-vision-ext/main/docs/docs/public/screen.png)
+![Screen](https://raw.githubusercontent.com/calloo/night-vision-ext/main/docs/docs/public/screen.png)
 
 ## Installation
 

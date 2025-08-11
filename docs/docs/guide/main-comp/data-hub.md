@@ -27,4 +27,4 @@ chart.update("legend");
 
 ## Full DataHub API
 
-See [Full DahaHub API](/guide/api/datahub-api)
+See [Full DahaHub API](/night-vision-ext/guide/api/datahub-api)

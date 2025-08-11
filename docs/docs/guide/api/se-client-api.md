@@ -7,7 +7,7 @@ Script Engine Client API.
 
 - **Type:** `async` `function`
 - **Returns:** `Promise`
-- **Related:** [Indicator Scripts](/guide/navy-js/indicator-scripts.html)
+- **Related:** [Indicator Scripts](/night-vision-ext/guide/navy-js/indicator-scripts.html)
 
 Uploads all data into the Script Engine.
 
@@ -15,7 +15,7 @@ Uploads all data into the Script Engine.
 
 - **Type:** `async` `function`
 - **Returns:** `Promise`
-- **Related:** [Indicator Scripts](/guide/navy-js/indicator-scripts.html)
+- **Related:** [Indicator Scripts](/night-vision-ext/guide/navy-js/indicator-scripts.html)
 
 Updates data in the Script Engine. Sends two last candles, performs an update of overlays.
 
@@ -33,7 +33,7 @@ async function update() {
 
 - **Type:** `async` `function`
 - **Returns:** `Promise`
-- **Related:** [Indicator Scripts](/guide/navy-js/indicator-scripts.html)
+- **Related:** [Indicator Scripts](/night-vision-ext/guide/navy-js/indicator-scripts.html)
 
 Sends and executes all scripts in the Script Engine.
 
@@ -41,7 +41,7 @@ Sends and executes all scripts in the Script Engine.
 
 - **Type:** `async` `function`
 - **Returns:** `Promise`
-- **Related:** [Indicator Scripts](/guide/navy-js/indicator-scripts.html)
+- **Related:** [Indicator Scripts](/night-vision-ext/guide/navy-js/indicator-scripts.html)
 
 Performs `se.updateData()` and `se.execScripts()` together.
 

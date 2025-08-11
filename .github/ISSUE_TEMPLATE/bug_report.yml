@@ -67,7 +67,7 @@ body:
       options:
         - label: Read the [docs](https://calloo.github.io/night-vision-ext/guide/intro/getting-started.html).
           required: true
-        - label: Check that there isn't [already an issue](https://github.com/project-nv/night-vision-ext/issues) that reports the same bug to avoid creating a duplicate.
+        - label: Check that there isn't [already an issue](https://github.com/calloo/night-vision-ext/issues) that reports the same bug to avoid creating a duplicate.
           required: true
         - label: Make sure this is a NightVision issue and not a framework-specific issue.
           required: true

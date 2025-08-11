@@ -13,7 +13,7 @@
 
 The array is limited by `__len__` (applied each step).
 
-[**Std-lib**](/guide/api/se-std-lib.html) is a collection of built-in functions:
+[**Std-lib**](/night-vision-ext/guide/api/se-std-lib.html) is a collection of built-in functions:
 
 ```
 atr()

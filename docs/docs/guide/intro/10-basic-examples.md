@@ -9,7 +9,7 @@ Let's take a little tour into the land of real charting. These examples will dem
 
 ## 1. First real-data chart
 
-Let's be honest, the chart from [Getting Started](/guide/intro/getting-started) page wasn't so real - the data was generated on the spot. What if we have a cryptocurrency dataset? No problem:
+Let's be honest, the chart from [Getting Started](/night-vision-ext/guide/intro/getting-started) page wasn't so real - the data was generated on the spot. What if we have a cryptocurrency dataset? No problem:
 
 <iframe src="https://codesandbox.io/embed/playing-around-1-15lwqr?fontsize=14&hidenavigation=1&module=%2Fmain.js&theme=dark"
      style="width:100%; height:490px; border:0; border-radius: 8px; overflow:hidden;"
@@ -442,7 +442,7 @@ You should get the same result as in the [Getting Started example](/guide/intro/
 ## 10. Full real-time chart of Bitcoin
 
 ::: warning
-Due to the limitations of CodeSandBox, there are no updates via the websocket here. See [this](https://github.com/project-nv/night-vision-ext/blob/main/tests/real-time/realTime.js) as a fully working example.  
+Due to the limitations of CodeSandBox, there are no updates via the websocket here. See [this](https://github.com/calloo/night-vision-ext/blob/main/tests/real-time/realTime.js) as a fully working example.  
 :::
 
 Are you ready for the full **NightVision** experience?

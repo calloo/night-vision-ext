@@ -99,7 +99,7 @@ yRange() => [1, 0]
 ```
 :::
 
-Redefines y-range of overlay. See [this](/guide/navy-js/overlay-scripts.html#y-range-function) for more info.
+Redefines y-range of overlay. See [this](/night-vision-ext/guide/navy-js/overlay-scripts.html#y-range-function) for more info.
 
 ## preSampler(x)
 
@@ -109,7 +109,7 @@ Redefines y-range of overlay. See [this](/guide/navy-js/overlay-scripts.html#y-r
     Array of numbers for sampling.
 
 
-Defines a sampler for the precision detection algo. See more information [here](/guide/navy-js/overlay-scripts.html#precision-samplers)
+Defines a sampler for the precision detection algo. See more information [here](/night-vision-ext/guide/navy-js/overlay-scripts.html#precision-samplers)
 
 ```js
 // Code from Candles.navy
@@ -153,7 +153,7 @@ for (var i = view.i1, n = view.i2; i <= n; i++) {
 - **Returns** `array`
     Array of `[value, color]` pairs.
 
-Defines legend as `[value, color]` pairs. [More Info](/guide/navy-js/overlay-scripts.html#custom-legend).
+Defines legend as `[value, color]` pairs. [More Info](/night-vision-ext/guide/navy-js/overlay-scripts.html#custom-legend).
 To hide the legend line return `null`. 
 
 ## legendHtml(x, prec, formatter)
@@ -165,7 +165,7 @@ To hide the legend line return `null`.
 - **Returns** `string`
     HMTL code
 
-Defines legend as a custom HTML. [More Info](/guide/navy-js/overlay-scripts.html#custom-legend).  
+Defines legend as a custom HTML. [More Info](/night-vision-ext/guide/navy-js/overlay-scripts.html#custom-legend).  
 
 ## valueTracker(x)
 
@@ -272,7 +272,7 @@ draw() {
 }
 ```
 
-### $core.layout <span style="font-weight: 300;">[`Layout`](/guide/main-comp/layout.html#layout) - Grid Layout</span>
+### $core.layout <span style="font-weight: 300;">[`Layout`](/night-vision-ext/guide/main-comp/layout.html#layout) - Grid Layout</span>
 
 ### $core.dataSubset <span style="font-weight: 300;">`array` - Visible data subset</span>
 
@@ -288,11 +288,11 @@ draw() {
 
 ### $core.range <span style="font-weight: 300;">`array` - Overlay unique id</span>
 
-### $core.colors <span style="font-weight: 300;">`object` - Chart colors, [Defaults](/guide/api/default-colors.html) </span>
+### $core.colors <span style="font-weight: 300;">`object` - Chart colors, [Defaults](/night-vision-ext/guide/api/default-colors.html) </span>
 
-### $core.cursor <span style="font-weight: 300;">`object` - Chart [Cursor](/guide/main-comp/cursor.html#cursor)</span>
+### $core.cursor <span style="font-weight: 300;">`object` - Chart [Cursor](/night-vision-ext/guide/main-comp/cursor.html#cursor)</span>
 
-### $core.src <span style="font-weight: 300;">`object` - [Overlay Object](/guide/data-struct/overlay-object.html)</span>
+### $core.src <span style="font-weight: 300;">`object` - [Overlay Object](/night-vision-ext/guide/data-struct/overlay-object.html)</span>
 
 ### $core.props <span style="font-weight: 300;">`object` - General Chart Props</span>
 
@@ -302,28 +302,28 @@ draw() {
 
 - **Type:** `object`
 
-Overlay props (`props` field of [OverlayObject](/guide/data-struct/overlay-object.html)). [Read More](/guide/navy-js/overlay-scripts.html#props)
+Overlay props (`props` field of [OverlayObject](/night-vision-ext/guide/data-struct/overlay-object.html)). [Read More](/night-vision-ext/guide/navy-js/overlay-scripts.html#props)
 
 ## $events
 
 - **Type:** `object`
 
-[Events](/guide/main-comp/events.html) component.
+[Events](/night-vision-ext/guide/main-comp/events.html) component.
 
 ## $lib
 
 Collection of primitives & helper functions.
 
-### $lib.Candle <span style="font-weight: 300;"> - Draws candle [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/candle.js)</span>
-### $lib.Volbar <span style="font-weight: 300;"> - Draws volume bar [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/volbar.js)</span>
-### $lib.layoutCnv <span style="font-weight: 300;"> - Calculates candle & volume layout [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/layoutCnvFast.js)</span>
-### $lib.formatCash <span style="font-weight: 300;"> - Formats number in the following format, e.g.: `1.2M` [src](https://github.com/project-nv/night-vision-ext/blob/main/src/stuff/utils.js#L466)</span>
-### $lib.candleBody <span style="font-weight: 300;"> - Draws candle body fast [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/candleBody.js)</span>
-### $lib.candleWick <span style="font-weight: 300;"> - Draws candle wick fast [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/candleWick.js)</span>
-### $lib.volumeBar <span style="font-weight: 300;"> - Draws volume bar fast [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/volumeBar.js)</span>
-### $lib.fastSma <span style="font-weight: 300;"> - Calculates SMA fast [scr](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/helperFns.js#L6)</span>
-### $lib.avgVolume <span style="font-weight: 300;"> - Draws average volume fast [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/avgVolume.js)</span>
-### $lib.candleColor <span style="font-weight: 300;"> - Detects candle color [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/primitives/navyLib/helperFns.js)</span>
+### $lib.Candle <span style="font-weight: 300;"> - Draws candle [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/candle.js)</span>
+### $lib.Volbar <span style="font-weight: 300;"> - Draws volume bar [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/volbar.js)</span>
+### $lib.layoutCnv <span style="font-weight: 300;"> - Calculates candle & volume layout [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/layoutCnvFast.js)</span>
+### $lib.formatCash <span style="font-weight: 300;"> - Formats number in the following format, e.g.: `1.2M` [src](https://github.com/calloo/night-vision-ext/blob/main/src/stuff/utils.js#L466)</span>
+### $lib.candleBody <span style="font-weight: 300;"> - Draws candle body fast [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/candleBody.js)</span>
+### $lib.candleWick <span style="font-weight: 300;"> - Draws candle wick fast [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/candleWick.js)</span>
+### $lib.volumeBar <span style="font-weight: 300;"> - Draws volume bar fast [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/volumeBar.js)</span>
+### $lib.fastSma <span style="font-weight: 300;"> - Calculates SMA fast [scr](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/helperFns.js#L6)</span>
+### $lib.avgVolume <span style="font-weight: 300;"> - Draws average volume fast [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/avgVolume.js)</span>
+### $lib.candleColor <span style="font-weight: 300;"> - Detects candle color [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/primitives/navyLib/helperFns.js)</span>
 
 <br/><br/>
 
@@ -331,7 +331,7 @@ Collection of primitives & helper functions.
 
 ## Indicator Std Functions
 
-See [Script Engine Std Library](/guide/api/se-std-lib.html)
+See [Script Engine Std Library](/night-vision-ext/guide/api/se-std-lib.html)
 
 ## Indicator Environment
 
@@ -340,7 +340,7 @@ See [Script Engine Std Library](/guide/api/se-std-lib.html)
 
 ### self
 
-Script Environment of the script: [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/se/script_env.js).
+Script Environment of the script: [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/se/script_env.js).
 
 ### ohlcv
 
@@ -364,11 +364,11 @@ shared.ts = ema(close, 200)
 Spline(shared.ts)
 ```
 
-To make sure that script are executed in the right order, set an incremental [`execOrder`](/guide/data-struct/script-object.html#script-settings-execorder).
+To make sure that script are executed in the right order, set an incremental [`execOrder`](/night-vision-ext/guide/data-struct/script-object.html#script-settings-execorder).
 
 ### settings
 
-[Script settings](/guide/data-struct/script-object.html#script-settings).  
+[Script settings](/night-vision-ext/guide/data-struct/script-object.html#script-settings).  
 
 ### tf
 
@@ -380,7 +380,7 @@ Current chart range. The same as [this](/guide/api/chart-api.html#chart-range).
 
 ### se
 
-Script Engine reference. [src](https://github.com/project-nv/night-vision-ext/blob/main/src/core/se/script_engine.js)
+Script Engine reference. [src](https://github.com/calloo/night-vision-ext/blob/main/src/core/se/script_engine.js)
 
 <div class="tip custom-block section-split">Variables available in the [UPDATE] section of a script.</div>
 
