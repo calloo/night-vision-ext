@@ -108,6 +108,34 @@ class DataHub {
   }
 
   /**
+   * Adds an indicator to a specified pane
+   * @param {number} paneId - Index of the pane
+   * @param {string} type - Type of the indicator
+   * @param {Object} [props={}] - Properties for the indicator
+   * @returns {Promise<number>} - Index of the added indicator
+   */
+  async addIndicator(paneId, type, props = {}) {
+    const scripts = this.data.panes[paneId].scripts ? this.data.panes[paneId].scripts : []
+    const script = { type, props, settings: {} }
+    scripts.push(script)
+    this.data.panes[paneId].scripts = scripts
+    await this.se.uploadAndExec()
+
+    return scripts.length - 1
+  }
+
+  /**
+   * Removes an indicator from a specified pane
+   * @param {number} paneId - Index of the pane
+   * @param {number} scriptId - Index of the script to remove
+   * @returns {Promise<void>}
+   */
+  async removeIndicator(paneId, scriptId) {
+    this.data.panes[paneId].scripts?.splice(scriptId, 1)
+    await this.se.uploadAndExec()
+  }
+
+  /**
    * Detects the main chart and defines offcharts
    * Sets this.chart, this.offchart, this.mainOv, and this.mainPaneId properties
    * @returns {void}

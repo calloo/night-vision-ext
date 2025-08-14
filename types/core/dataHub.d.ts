@@ -39,4 +39,10 @@ export interface DataHub {
 
   /** Get All overlays */
   allOverlays(type: any): Overlay[];
+
+  /** Adds an indicator to a specified pane and returns the scriptId */
+  addIndicator(paneId: number, type: string, props?: object): Promise<number>;
+
+  /** Removes an indicator from a specified pane */
+  removeIndicator(paneId: number, scriptId: number): Promise<void>;
 }
