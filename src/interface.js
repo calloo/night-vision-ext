@@ -14,6 +14,7 @@ import resizeTracker from './stuff/resizeTracker.js'
 class NightVision {
   constructor(target, props = {}) {
     this._data = props.data || {}
+    this.enableGridPanning = props.enableGridPanning ?? true
     this._scripts = props.scripts || []
 
     let id = props.id || 'nvjs'

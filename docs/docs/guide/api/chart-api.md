@@ -19,6 +19,12 @@ let chart = new NightVision('<root-element-id>', {
     // ...
 })
 ```   
+## chart.enableGridPanning
+
+- **Type:** `boolean`
+- **Default:** `true`
+
+**Main chart enableGridPanning**. Used to disable or enable view panning.
 
 ## chart.id
 

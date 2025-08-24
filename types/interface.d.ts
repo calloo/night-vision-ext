@@ -16,6 +16,7 @@ export class NightVision {
   scriptHub: Scripts;
   root: HTMLElement;
   comp: any;
+  enableGridPanning: boolean;
 
   /** Unique html id */
   set id(arg: string);

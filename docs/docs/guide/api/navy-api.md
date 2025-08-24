@@ -298,6 +298,12 @@ draw() {
 
 ### $core.indexOffset <span style="font-weight: 300;">`number` - Index Offset of overlay (in index-based mode)</span>
 
+### $core.repaint <span style="font-weight: 300;">`function` - repaints the layout of the canvas</span>
+
+### $core.enableChartPanning <span style="font-weight: 300;">`function` - turns on the ability for the view to be panned</span>
+
+### $core.disableChartPanning <span style="font-weight: 300;">`function` - turns off the ability for the view to be panned. Useful when scripts need to respond to mousedown events by providing a draggable feature</span>
+
 ## $props
 
 - **Type:** `object`
